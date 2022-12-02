@@ -4,9 +4,13 @@ Only to add a geoJSON to our layers control (tree structure) (i.e. designated ar
 Use the same structure: you can modify your geoJSON file on QGIS, etc.
 
 Name: COUNTRY_TYPE_LAYERNAME. 
+
       Examples: GERMANY_ENVIRONMENT_NATURA2000, DENMARK_CABLES_TELECOMCABLES
+
 Attribute: SITE_NAME (there can be more attributes if convenient)
+
 Type: MultiPolygon, MultiPoint
+
 EPSG: 4326
 
 Example:
