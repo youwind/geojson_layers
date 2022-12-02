@@ -13,13 +13,13 @@ Type: MultiPolygon, MultiPoint
 
 EPSG: 4326
 
-Example:
+      Example:
 
-{
-"type": "FeatureCollection",
-"name": "COUNTRY_TYPE_LAYERNAME",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "SITE_NAME": "[ADD SITE NAME]" }, "geometry": { "type": "MultiPolygon", 
-  "coordinates": [ [ [ [ 77.620005737750006, 7.981995028527778 ], [ 77.645588884083338, 8.062183859361111 ], 
+      {
+      "type": "FeatureCollection",
+      "name": "COUNTRY_TYPE_LAYERNAME",
+      "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+      "features": [
+            { "type": "Feature", "properties": { "SITE_NAME": "[ADD SITE NAME]" }, "geometry": { "type": "MultiPolygon", 
+                  "coordinates": [ [ [ [ 77.620005737750006, 7.981995028527778 ], [ 77.645588884083338, 8.062183859361111 ], 
                       [ 77.681388220972224, 8.063079081 ], [ 77.743692710805561, 7.870508620694444 ],...
